@@ -1,0 +1,11 @@
+version: '3'
+
+services: 
+
+  paserver:
+    build: .
+    image: souzadeveloper/paserver
+    container_name: paserver
+    entrypoint: ./PAServer-20.0/paserver -password
+    ports: 
+      - 64211:64211
