@@ -194,12 +194,12 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="UserController.pas"/>
-        <DCCReference Include="ServerConsts.pas"/>
-        <DCCReference Include="ServerAuth.pas"/>
-        <DCCReference Include="AuthController.pas"/>
-        <DCCReference Include="ServerController.pas"/>
-        <DCCReference Include="LibUtils.pas"/>
+        <DCCReference Include="src\UserController.pas"/>
+        <DCCReference Include="src\ServerConsts.pas"/>
+        <DCCReference Include="src\ServerAuth.pas"/>
+        <DCCReference Include="src\AuthController.pas"/>
+        <DCCReference Include="src\ServerController.pas"/>
+        <DCCReference Include="src\LibUtils.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
