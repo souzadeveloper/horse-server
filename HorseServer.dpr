@@ -5,27 +5,31 @@ program HorseServer;
 {$R *.res}
 
 uses
+  System.SysUtils,
   Horse,
   Horse.Jhonson,
   Horse.CORS,
-  UserController in 'UserController.pas',
-  ServerConsts in 'ServerConsts.pas',
-  ServerAuth in 'ServerAuth.pas',
-  AuthController in 'AuthController.pas',
-  ServerController in 'ServerController.pas',
-  LibUtils in 'LibUtils.pas';
-
-var
-  App: THorse;
+  UserController in 'src\UserController.pas',
+  ServerConsts in 'src\ServerConsts.pas',
+  ServerAuth in 'src\ServerAuth.pas',
+  AuthController in 'src\AuthController.pas',
+  ServerController in 'src\ServerController.pas',
+  LibUtils in 'src\LibUtils.pas';
 
 begin
-  App := THorse.Create(9000);
-  App.Use(Jhonson);
-  App.Use(CORS);
+  THorse.Use(Jhonson);
+  THorse.Use(CORS);
 
-  AuthController.Registry(App);
-  ServerController.Registry(App);
-  UserController.Registry(App);
+  AuthController.Registry;
+  ServerController.Registry;
+  UserController.Registry;
 
-  App.Start;
+  THorse.Listen(9000,
+    procedure(Horse: THorse)
+    begin
+      Writeln('Server is runing on port ' + THorse.Port.ToString);
+      Write('Press return to stop...');
+      ReadLn;
+      THorse.StopListen;
+    end);
 end.

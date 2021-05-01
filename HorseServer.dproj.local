@@ -1,18 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2020/05/23 00:35:16.000.326,C:\Users\souza\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Projetos\HorseServer\HorseServer.dproj</Transaction>
-    <Transaction>2020/05/23 00:48:28.000.948,=C:\Projetos\HorseServer\Unit1.pas</Transaction>
-    <Transaction>2020/05/23 00:50:40.000.617,C:\Projetos\HorseServer\Unit1.pas=C:\Projetos\HorseServer\UserController.pas</Transaction>
-    <Transaction>2020/07/22 22:26:18.000.101,=C:\Projetos\HorseServer\Unit1.pas</Transaction>
-    <Transaction>2020/07/22 22:26:48.000.070,C:\Projetos\HorseServer\Unit1.pas=C:\Projetos\HorseServer\ServerConsts.pas</Transaction>
-    <Transaction>2020/07/22 22:29:13.000.382,=C:\Projetos\HorseServer\Unit1.pas</Transaction>
-    <Transaction>2020/07/22 22:32:08.000.761,C:\Projetos\HorseServer\Unit1.pas=C:\Projetos\HorseServer\ServerAuth.pas</Transaction>
-    <Transaction>2020/07/22 22:39:05.000.839,=C:\Projetos\HorseServer\Unit1.pas</Transaction>
-    <Transaction>2020/07/22 22:40:39.000.151,C:\Projetos\HorseServer\Unit1.pas=C:\Projetos\HorseServer\AuthController.pas</Transaction>
-    <Transaction>2021/04/29 22:33:23.000.053,=C:\Projetos\Delphi\Samples\HorseServer\Unit1.pas</Transaction>
-    <Transaction>2021/04/29 22:33:41.000.500,C:\Projetos\Delphi\Samples\HorseServer\ServerController.pas=C:\Projetos\Delphi\Samples\HorseServer\Unit1.pas</Transaction>
-    <Transaction>2021/04/29 22:42:43.000.936,=C:\Projetos\Delphi\Samples\HorseServer\Unit1.pas</Transaction>
-    <Transaction>2021/04/29 22:43:29.000.637,C:\Projetos\Delphi\Samples\HorseServer\LibUtils.pas=C:\Projetos\Delphi\Samples\HorseServer\Unit1.pas</Transaction>
-  </Transactions>
+ </Transactions>
 </BorlandProject>
