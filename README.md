@@ -1,2 +1,3 @@
 # horse-server
-Servidor Horse
+
+API do Horse rodando em Docker. 
